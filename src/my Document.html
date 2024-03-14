@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:5500/neha.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Document</title>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</head>
+<body>
+  hi guys.This is my first html introduction to html<br>
+  <details><b>name:</b>Neha<br><b>from:</b>vijayawada<br><a href="http://127.0.0.1:5500/n1.html">contact</a></details> 
+  <big>basics</big><br><b>1.how to upload pic</b><br>
+  <img src="./my Document_files/neha img.png" alt="neha img" width="300"><br>
+  <a href="http://127.0.0.1:5500/n1.html"><button>sumbit</button></a><br>
+  <big><b> example:</b>html,css,java</big>
+  <center><b style="font-size: 50px
+  ;">1.html</b></center><br>
+  <dl><b>slcm</b>
+<dt>securities law and capital market</dt><br>
+<dd><b>ebcl</b></dd>
+<dt>economic business and commercial laws</dt><b><dd>of cs executive</dd></b></dl>
+<audio src="assets/audio1.mp3" controls=""></audio><br>
+<video src="assets/video.mp4" controls="" loop="" width="200" height="250"></video>
+<center><b style="font-size: 50px;">shopping</b></center>  
+<img src="./my Document_files/shoe.jpg" <="" img="">
+<b>price:</b>3999rs <del>5999rs</del> <br>
+<b>brand;</b>puma
+<p><b> for:</b>means wear</p>
+<p1><b>colour:</b>black</p1>
+<br>
+<p2><b>review:</b>good</p2><br>
+<p><abbr title="international standard organisation"><b>ISO certified brands:</b> </abbr></p><table border="1">
+  <caption>sample table</caption>
+  <thead>
+    <tr>
+      <th>header1</th>
+      <th>header2</th>
+    </tr>
+    <tr>
+      <td>regular</td>
+      <td>sports</td>
+    </tr>
+    <tr>
+      <td>dresses</td> 
+      <td>traditional</td>
+    </tr>
+        
+  </thead> 
+</table>
+<area>hi
+<!--<base>--><base href=".">
+
+
+
+</body></html>
